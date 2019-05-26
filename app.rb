@@ -21,7 +21,7 @@ class App < Sinatra::Base
   get "mulitply/:num1/:num2" do
     number_1 = params[:num1].to_i
     number_2 = params[:num2].to_i
-    total = "#{number_1} * #{number_2}"
-    total
+    "#{number_1} * #{number_2}""
+    
   end
 end
